@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-zpu0_z&)(-+du-7!qk%admph)h7o$!nqd52=-2nsbwuf610##z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mougli.vercel.app', '.vercel.app']
 
 
 # Application definition
