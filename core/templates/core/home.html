@@ -1,0 +1,670 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Mougle — Solutions numériques et informatiques. Création de sites web, logiciels, applications et services informatiques."
+    >
+
+    <meta
+        name="keywords"
+        content="Mougle, informatique, site web, logiciel, application, Windows, Linux, Microsoft Office, Burkina Faso"
+    >
+
+    <meta name="author" content="Mougle">
+
+    <title>Mougle — Solutions numériques et informatiques</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link
+        rel="stylesheet"
+        href="{% static 'core/css/style.css' %}"
+    >
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+
+    <header class="header">
+
+        <div class="container navbar">
+
+            <a href="#accueil" class="logo">
+                <img src="{% static 'core/images/logo.jpg' %}" alt="Mougle">
+            </a>
+
+            <nav class="desktop-nav">
+
+                <a href="#accueil">Accueil</a>
+
+                <a href="#services">Services</a>
+
+                <a href="#apropos">À propos</a>
+
+                <a href="#devis">Devis</a>
+
+                <a href="#contact">Contact</a>
+
+                <a
+                    href="https://wa.me/22671176061?text=Bonjour%20Mougle%2C%20je%20souhaite%20demander%20un%20devis."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="nav-button"
+                >
+                    Demander un devis
+                </a>
+
+            </nav>
+
+
+            <!-- Menu mobile -->
+
+            <button
+                class="mobile-menu-button"
+                id="mobileMenuButton"
+                aria-label="Ouvrir le menu"
+            >
+                ☰
+            </button>
+
+        </div>
+
+
+        <!-- Mobile navigation -->
+
+        <nav class="mobile-nav" id="mobileNav">
+
+            <a href="#accueil">Accueil</a>
+
+            <a href="#services">Services</a>
+
+            <a href="#apropos">À propos</a>
+
+            <a href="#devis">Devis</a>
+
+            <a href="#contact">Contact</a>
+
+            <a
+                href="https://wa.me/22671176061?text=Bonjour%20Mougle%2C%20je%20souhaite%20demander%20un%20devis."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="mobile-nav-button"
+            >
+                Demander un devis
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         MAIN
+    ========================== -->
+
+    <main>
+
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="hero" id="accueil">
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <div class="hero-badge">
+                        Solutions numériques & informatiques
+                    </div>
+
+
+                    <h1>
+                        Donnons vie à vos
+                        <span>idées numériques.</span>
+                    </h1>
+
+
+                    <p>
+                        Mougle accompagne les particuliers, entrepreneurs
+                        et entreprises dans la création de sites web,
+                        logiciels, applications et solutions informatiques
+                        adaptées à leurs besoins.
+                    </p>
+
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="https://wa.me/22671176061?text=Bonjour%20Mougle%2C%20je%20souhaite%20demander%20un%20devis."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="button primary-button"
+                        >
+                            💬 Demander un devis
+                        </a>
+
+
+                        <a
+                            href="#services"
+                            class="button secondary-button"
+                        >
+                            Découvrir nos services
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-visual">
+
+                    <div class="hero-card">
+
+                        <div class="hero-card-icon">
+                            ✦
+                        </div>
+
+                        <h3>
+                            Votre idée.
+                        </h3>
+
+                        <p>
+                            Notre expertise.
+                        </p>
+
+                        <div class="hero-card-line"></div>
+
+                        <strong>
+                            Une solution.
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SERVICES
+        ========================== -->
+
+        <section class="section services" id="services">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span>
+                        Nos services
+                    </span>
+
+                    <h2>
+                        Des solutions pour chaque besoin.
+                    </h2>
+
+                    <p>
+                        De la création numérique aux services informatiques,
+                        Mougle vous accompagne dans vos projets.
+                    </p>
+
+                </div>
+
+
+                <div class="services-grid">
+
+
+                    <!-- Service 1 -->
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            🌐
+                        </div>
+
+                        <h3>
+                            Création de sites web
+                        </h3>
+
+                        <p>
+                            Création de sites vitrines, sites professionnels,
+                            portfolios et solutions web modernes,
+                            rapides et adaptées à votre activité.
+                        </p>
+
+                        <ul>
+
+                            <li>
+                                Sites vitrines
+                            </li>
+
+                            <li>
+                                Sites professionnels
+                            </li>
+
+                            <li>
+                                Portfolios
+                            </li>
+
+                            <li>
+                                Solutions web personnalisées
+                            </li>
+
+                        </ul>
+
+                    </article>
+
+
+                    <!-- Service 2 -->
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            💻
+                        </div>
+
+                        <h3>
+                            Logiciels & applications
+                        </h3>
+
+                        <p>
+                            Développement de logiciels et applications
+                            conçus selon les besoins spécifiques de votre
+                            projet ou de votre entreprise.
+                        </p>
+
+                        <ul>
+
+                            <li>
+                                Logiciels sur mesure
+                            </li>
+
+                            <li>
+                                Applications mobiles
+                            </li>
+
+                            <li>
+                                Applications web
+                            </li>
+
+                            <li>
+                                Solutions personnalisées
+                            </li>
+
+                        </ul>
+
+                    </article>
+
+
+                    <!-- Service 3 -->
+
+                    <article class="service-card">
+
+                        <div class="service-icon">
+                            🖥️
+                        </div>
+
+                        <h3>
+                            Services informatiques
+                        </h3>
+
+                        <p>
+                            Installation, configuration et assistance
+                            pour vos systèmes d'exploitation et logiciels.
+                        </p>
+
+                        <ul>
+
+                            <li>
+                                Installation de Windows
+                            </li>
+
+                            <li>
+                                Installation de Linux
+                            </li>
+
+                            <li>
+                                Installation de Microsoft Office
+                            </li>
+
+                            <li>
+                                Word, Excel, PowerPoint, etc.
+                            </li>
+
+                            <li>
+                                Configuration des logiciels
+                            </li>
+
+                            <li>
+                                Activation avec licences officielles
+                            </li>
+
+                        </ul>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             À PROPOS
+        ========================== -->
+
+        <section class="section about" id="apropos">
+
+            <div class="container about-grid">
+
+
+                <div class="about-content">
+
+                    <span class="section-label">
+                        À propos de Mougle
+                    </span>
+
+
+                    <h2>
+                        La technologie au service de vos projets.
+                    </h2>
+
+
+                    <p>
+                        Mougle est une entreprise spécialisée dans les
+                        solutions numériques et les services informatiques.
+                    </p>
+
+
+                    <p>
+                        Nous aidons les particuliers, entrepreneurs et
+                        entreprises à utiliser la technologie pour créer,
+                        développer et améliorer leurs activités.
+                    </p>
+
+
+                    <p>
+                        Notre approche repose sur des solutions simples,
+                        modernes et adaptées aux besoins réels de nos clients.
+                    </p>
+
+                </div>
+
+
+                <div class="about-highlight">
+
+                    <div class="highlight-icon">
+                        🚀
+                    </div>
+
+                    <h3>
+                        Notre vision
+                    </h3>
+
+                    <p>
+                        Construire des solutions numériques utiles,
+                        accessibles et adaptées aux réalités de nos clients.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             DEVIS
+        ========================== -->
+
+        <section class="section quote" id="devis">
+
+            <div class="container">
+
+                <div class="quote-box">
+
+                    <div class="quote-content">
+
+                        <span class="section-label">
+                            Votre projet
+                        </span>
+
+
+                        <h2>
+                            Vous avez une idée ?
+                        </h2>
+
+
+                        <p>
+                            Présentez-nous votre projet. Nous discuterons
+                            ensemble de vos besoins et de la solution
+                            adaptée.
+                        </p>
+
+
+                        <a
+                            href="https://wa.me/22671176061?text=Bonjour%20Mougle%2C%20je%20souhaite%20parler%20de%20mon%20projet."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="button whatsapp-button"
+                        >
+                            💬 Parler de mon projet
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
+
+        <section class="section contact" id="contact">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span>
+                        Contact
+                    </span>
+
+                    <h2>
+                        Parlons de votre projet.
+                    </h2>
+
+                    <p>
+                        Une question, un besoin ou un projet ?
+                        Contactez directement Mougle.
+                    </p>
+
+                </div>
+
+
+                <div class="contact-grid">
+
+
+                    <div class="contact-card">
+
+                        <div class="contact-icon">
+                            💬
+                        </div>
+
+                        <h3>
+                            WhatsApp
+                        </h3>
+
+                        <p>
+                            Échangez directement avec nous sur WhatsApp.
+                        </p>
+
+                        <a
+                            href="https://wa.me/22671176061"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="contact-link"
+                        >
+                            +226 71 17 60 61
+                        </a>
+
+                    </div>
+
+
+                    <div class="contact-card">
+
+                        <div class="contact-icon">
+                            📩
+                        </div>
+
+                        <h3>
+                            Demande de devis
+                        </h3>
+
+                        <p>
+                            Décrivez votre besoin et recevez une réponse
+                            directement sur WhatsApp.
+                        </p>
+
+                        <a
+                            href="https://wa.me/22671176061?text=Bonjour%20Mougle%2C%20je%20souhaite%20obtenir%20un%20devis."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="contact-link"
+                        >
+                            Demander un devis →
+                        </a>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div>
+
+                <a href="#accueil" class="footer-logo">
+                    <img src="{% static 'core/images/logo.jpg' %}" alt="Mougle">
+                </a>
+
+                <p>
+                    Solutions numériques et informatiques.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#accueil">
+                    Accueil
+                </a>
+
+                <a href="#services">
+                    Services
+                </a>
+
+                <a href="#apropos">
+                    À propos
+                </a>
+
+                <a href="#contact">
+                    Contact
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="container footer-bottom">
+
+            <p>
+                © 2026 Mougle. Tous droits réservés.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <script>
+
+        const mobileMenuButton =
+            document.getElementById("mobileMenuButton");
+
+        const mobileNav =
+            document.getElementById("mobileNav");
+
+
+        mobileMenuButton.addEventListener("click", () => {
+
+            mobileNav.classList.toggle("active");
+
+        });
+
+
+        const mobileLinks =
+            document.querySelectorAll(".mobile-nav a");
+
+
+        mobileLinks.forEach(link => {
+
+            link.addEventListener("click", () => {
+
+                mobileNav.classList.remove("active");
+
+            });
+
+        });
+
+    </script>
+
+</body>
+</html>
